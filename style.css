@@ -2,6 +2,7 @@ body {
   margin: 0px;
   position: relative;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 .mainNav {
   width: 100vw;
