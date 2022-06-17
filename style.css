@@ -6,7 +6,7 @@ body {
 .mainNav {
   width: 100vw;
   height: 70px;
-
+  background-color: white;
   display: flex;
   position: fixed;
   top: 0px;
@@ -64,10 +64,133 @@ body {
   background-size: cover;
   background-blend-mode: darken;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   margin: 0px;
+  flex-direction: column;
+}
+.homeTitleContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -13%;
 }
 .homeTitle {
   color: white;
   font-size: 50px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+.homeTitleUnderline {
+  color: white;
+  font-size: 50px;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 2px;
+  margin-left: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.homeSubtitle {
+  color: white;
+  font-size: 24px;
+  margin-top: -190px;
+  font-family: "Raleway", sans-serif;
+}
+.homeButton {
+  color: white;
+  background-color: #3498db;
+  border-radius: 3px;
+  padding: 14px 30px;
+  font-size: 13px;
+  border: none;
+}
+.whatWeDo {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: column;
+}
+.wwdTitle {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: -1%;
+  color: rgb(36, 32, 32);
+}
+.lineContainer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.wwdLine2 {
+  border-bottom: 4px solid #3498db;
+  width: 30%;
+  height: 5px;
+}
+.wwdLine1 {
+  height: 5px;
+  border-bottom: 0.1px solid rgb(194, 182, 182);
+  width: 30%;
+}
+.wwdSubtitle {
+  font-size: 20px;
+  color: rgb(36, 32, 32);
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin-top: -0.1%;
+}
+.wwdContainer {
+  width: 95%;
+  height: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.wwdCard {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.wwdIcon {
+  margin-top: 1%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 0.5px solid aqua;
+}
+.wwdCardTitle {
+  font-size: 25px;
+  color: rgb(36, 32, 32);
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+.wwdCardText {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 17px;
+  color: rgb(36, 32, 32);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: -1%;
+}
+.wwdCard:hover {
+  box-shadow: 0px 0px 7px rgb(128, 119, 119);
+  transition: 1s all ease;
+}
+.wwdCard:hover .wwdCardTitle {
+  color: aqua;
+  transition: 1s all ease;
 }
