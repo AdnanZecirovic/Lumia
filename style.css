@@ -611,9 +611,9 @@ body {
   height: 80%;
 }
 .portfolioCardContainer {
-  margin-top: 5%;
   height: 30%;
   width: 100%;
+  margin-bottom: 5%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -621,7 +621,6 @@ body {
   width: 20%;
   height: 100px;
   margin-top: -1%;
-  margin-bottom: -3.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -676,7 +675,6 @@ body {
   font-size: 18px;
   color: rgb(36, 32, 32);
   font-weight: 600;
-  margin-bottom: -5px;
 }
 .portfolioText {
   font-family: "Raleway", sans-serif;
