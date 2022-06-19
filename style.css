@@ -946,3 +946,7 @@ body {
   background-color: #7fa9c5;
   transition: 1s all ease;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
