@@ -597,3 +597,62 @@ body {
   color: aqua;
   transition: 1s all ease;
 }
+.portfolio {
+  width: 100vw;
+  height: 180vh;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolioContainer {
+  width: 85%;
+  height: 80%;
+}
+.portfolioCardContainer {
+  margin-top: 5%;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.portfolioButtonContainer {
+  width: 20%;
+  height: 100px;
+  margin-top: -1%;
+  margin-bottom: -3.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolioButton {
+  border-radius: 6px;
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.portfolioButtonAll {
+  border-radius: 6px;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.portfolioButton:hover {
+  background-color: #3498db;
+  color: white;
+  transition: 0.5s all ease;
+}
+.portfolioCard {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+}
