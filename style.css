@@ -652,7 +652,34 @@ body {
   transition: 0.5s all ease;
 }
 .portfolioCard {
+  margin: 0px;
   width: 30%;
   height: 100%;
-  background-color: blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid rgb(250, 250, 250);
+  box-shadow: 0px 0px 7px rgb(160, 153, 153);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.portfolioImage {
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.portfolioTitle {
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: rgb(36, 32, 32);
+  font-weight: 600;
+  margin-bottom: -5px;
+}
+.portfolioText {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: rgb(119, 109, 109);
 }
