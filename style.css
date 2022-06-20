@@ -957,3 +957,137 @@ a {
   height: 1px;
   position: absolute;
 }
+.footerNav {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+.footerContainer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footerFirstContainer {
+  width: 100%;
+  height: 84%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerSecondContainer {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+}
+.footerCard1 {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+.footerCard2 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style-type: symbols(">");
+}
+.footerCard3 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  margin-top: -10px;
+  margin-right: 10%;
+  flex-direction: column;
+}
+.footerTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  color: rgb(49, 46, 46);
+  font-weight: 600;
+  margin-top: 20%;
+  margin-bottom: -2%;
+}
+.footerDivText {
+  width: 100%;
+  height: 16px;
+  display: flex;
+}
+.footerText {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: rgb(121, 107, 107);
+}
+.footerBold {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: rgb(49, 46, 46);
+  font-weight: bold;
+}
+.footerBold1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(49, 46, 46);
+  font-weight: bold;
+  margin-top: 25%;
+}
+.footerList {
+  margin-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: rgb(105, 95, 95);
+  margin-left: 20px;
+  cursor: pointer;
+}
+.footerList:hover {
+  color: #3498db;
+  transition: 1s all ease;
+}
+.subContainer {
+  width: 90%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10%;
+  justify-content: space-between;
+}
+.subField {
+  width: 70%;
+  height: 100%;
+  border: 1px solid #3498db;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: white;
+  cursor: text;
+}
+.subFieldButton {
+  width: 30%;
+  height: 100%;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #3498db;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.footerBold2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(49, 46, 46);
+  font-weight: bold;
+  margin-top: 15%;
+  margin-bottom: -0.8%;
+}
