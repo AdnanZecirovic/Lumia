@@ -76,6 +76,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0px;
   flex-direction: column;
+  position: relative;
 }
 .homeTitleContainer {
   width: 100%;
@@ -833,6 +834,7 @@ body {
   width: 20%;
   border-radius: 3px;
   cursor: pointer;
+  opacity: 40%;
 }
 .icons:hover {
   background-color: #3498db;
@@ -949,4 +951,9 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+.href1 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
 }

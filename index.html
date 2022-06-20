@@ -3,14 +3,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <header class="mainNav">
       <div class="logo"> <a href="#home">LUMIA</a> </div>
       <ul class="navigation">
         <a href="#home"><li class="navList">Home</li></a>
-        <li class="navList">About</li>
-        <li class="navList">Services</li>
-        <li class="navList">Porfolio</li>
-        <li class="navList">Testemonials</li>
+        <a href="#about"><li class="navList">About</li></a>
+        <a href="#services"><li class="navList">Services</li></a>
+        <a href="#portfolio"><li class="navList">Porfolio</li></a>
+        <a href="#testemonials"><li class="navList">Testemonials</li></a>
         <li class="navList">
           Drop Down ↓
           <div class="dropdownContainer">
@@ -34,7 +35,7 @@
             </ul>
           </div>
         </li>
-        <li class="navList">Contact</li>
+        <a href="#contact"><li class="navList">Contact</li></a>
       </ul>
       <div class="socialMedia">
         
@@ -45,8 +46,10 @@
         </div>
       </div>
     </header>
+    <div class="href1" id="home"></div>
     <div class="emptyDiv"></div>
-    <section class="home" id="home">
+    <section class="home" >
+      
       <div class="homeTitleContainer">
         <p class="homeTitle">Welcome to</p>
         <p class="homeTitleUnderline">Lumia</p>
@@ -92,8 +95,12 @@
           </p>
         </div>
       </div>
+     
     </section>
+    <div class="href1" id="about"></div>
+    <div class="testDivEmpty"></div>
     <section class="about">
+      
       <div class="aboutContainer">
         <img src="about.jpg" class="aboutImage" />
         <div class="aboutTextContainer">
@@ -200,6 +207,8 @@
         </div>
       </div>
     </section>
+    <div class="href1" id="services"></div>
+    <div class="testDivEmpty"></div>
     <section class="services">
       <p class="wwdTitle">Services</p>
       <div class="lineContainer">
@@ -288,7 +297,10 @@
           </div>
         </div>
       </div>
+
     </section>
+    <div class="href1" id="portfolio"></div>
+    
     <section class="portfolio">
       <p class="wwdTitle">Portfolio</p>
       <div class="lineContainer">
@@ -359,6 +371,7 @@
         </div>
       </div>
     </section>
+     <div class="href1" id="testemonials"></div>
     <div class="testDivEmpty"></div>
     <section class="testemonials">
       <p class="wwdTitle">Testemonials</p>
@@ -471,6 +484,7 @@
         </div>
       </div>
     </section>
+    <div class="href1" id="contact"></div>
     <div class="testDivEmpty"></div>
     <section class="pageContact">
       <p class="wwdTitle">Contact</p>
