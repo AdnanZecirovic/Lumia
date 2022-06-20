@@ -982,7 +982,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: green;
 }
 .footerCard1 {
   width: 25%;
@@ -1090,4 +1089,42 @@ a {
   font-weight: bold;
   margin-top: 15%;
   margin-bottom: -0.8%;
+}
+.subContainer2 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+}
+.footerText1 {
+  margin-left: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.socialMedia1 {
+  width: 10%;
+  height: 35%;
+  display: flex;
+  padding: 5px;
+  margin-right: -18%;
+  border-radius: 50%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.icons1 {
+  height: 50%;
+  width: 20%;
+  padding: 10px;
+  background-color: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 90%;
+  margin-left: 5px;
+}
+.icons1:hover {
+  background-color: #5587a8;
+  transition: 1s all ease;
 }
